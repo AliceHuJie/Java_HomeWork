@@ -28,7 +28,7 @@ StringBulider > StringBuffer > String.concat > “+” 。
 可变性最小化可以尽可能的让自己管理自己，提高模块独立性，尽可能减少代码耦合导致的扩展、测试、修改、优化的困难。
 不可变类比可变类更加易于设计,实现和使用,不容易出错,且线程安全。 
 # 8. What is functional programming?
-函数式编程是指可以将函数作为一个参数传递给指定方法。
+函数式编程,实际上是一种编程范式,区别于命令式注重解决问题的步骤,函数式注重的数据之间的关系 --- 即 f(x).
 # 9. Why should you prefer Builder Pattern to build complex objects?
 建造者模式可以将部件和其组装过程分开，一步一步创建一个复杂的对象。
 # 10. Why should you avoid floats for Calculations?
